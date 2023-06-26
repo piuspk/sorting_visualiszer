@@ -1,15 +1,16 @@
 .navbar {
-    background-color: black;
+    /* background-color: rgb(50, 139, 184); */
     height: 15vh;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    /* justify-content: center; */
 
 
 
 }
 
 button{
-    margin-top: 20px;
+    margin-top: 55px;
     height: 50%;
     margin-left: 20px;
     /* background-color: #008CBA; */
@@ -19,8 +20,8 @@ button{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    background-color: white;
+    font-size: 22px;
+    background-color: rgb(23, 2, 2);
     color: black;
     border: 2px solid black; /* Green */
     transition-duration: 0.4s;
@@ -35,24 +36,27 @@ button:hover {
 
 
 .slidecontainer {
+    position: absolute;
+    top: 0;
+    right: 20px;
     margin-top: 30px;
     height: 50px;
-    margin-left: 40px;
-    width: 300px; /* Width of the outside container */
+    width: 250px;
   }
   
-  /* The slider itself */
   .slider {
-    -webkit-appearance: none;  /* Override default CSS styles */
+    -webkit-appearance: none;
     appearance: none;
-    width: 100%; /* Full-width */
-    height: 25px; /* Specified height */
-    background: white; /* Grey background */
-    outline: none; /* Remove outline */
-    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
-    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    width: 100%;
+    height: 25px;
+    background: white;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
     transition: opacity .2s;
   }
+  
+  
   
   /* Mouse-over effects */
   .slider:hover {
@@ -65,7 +69,7 @@ button:hover {
     appearance: none;
     width: 25px; /* Set a specific slider handle width */
     height: 25px; /* Slider handle height */
-    background: grey; /* Green background */
+    background: rgb(233, 10, 10); /* Green background */
     cursor: pointer; /* Cursor on hover */
   }
   

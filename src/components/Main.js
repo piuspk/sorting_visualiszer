@@ -4,10 +4,7 @@ import Navbar from "./Navbar";
 import "./Main.css";
 
 
-// class Main extends Component {
-//   constructor(props){
-//     super(props);
-//   }
+
 const Main = () => {
   function getHeight (number) {
     const height = Math.floor((number / Math.max.apply(Math, array)) * 500);
@@ -42,7 +39,7 @@ const Main = () => {
             style={{
               display: "inline-block",
               // backgroundColor: "red",
-              backgroundColor: `${ isthis(idx)?"teal":"darkblue" }`,
+              backgroundColor: `${ isthis(idx)?"red":"darkblue" }`,
               height: `${getHeight(value)}px`,
               width: `${Math.floor(600 / array.length)}px`,
               marginLeft: `${Math.floor(600 / array.length) * 0.5}px`
