@@ -45,6 +45,7 @@ const Main = () => {
               marginLeft: `${Math.floor(600 / array.length) * 0.5}px`
             }}
           >
+            {/* ll */}
             {/* etrfx */}
           </div>
         ))}
