@@ -58,6 +58,8 @@ npm start
 ## Screenshots
 
 ![Screenshot 2023-07-13 190605](https://github.com/piuspk/sorting_visualiszer/assets/99687905/fc140bd1-2a0b-46c6-bb7a-e5fd455eb011)
+![Screenshot 2023-07-13 190605](https://github.com/piuspk/sorting_visualiszer/assets/99687905/d5257938-4db9-4be1-a1ab-9f61468529a3)
+
 
 ## Contributing
  If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
