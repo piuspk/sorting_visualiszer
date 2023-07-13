@@ -57,7 +57,7 @@ npm start
 
 ## Screenshots
 
-Include one or more screenshots of your sorting visualizer application here to showcase its functionality and user interface. You can add images to the `screenshots` directory in this repository.
+![Screenshot 2023-07-13 190605](https://github.com/piuspk/sorting_visualiszer/assets/99687905/fc140bd1-2a0b-46c6-bb7a-e5fd455eb011)
 
 ## Contributing
  If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
